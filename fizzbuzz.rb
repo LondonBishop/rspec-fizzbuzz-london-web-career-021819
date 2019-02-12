@@ -6,6 +6,7 @@ def fizzbuzz(numberIn)
     return "Fizz"
   when (numberIn % 5 == 0)
     return "Buzz"
+  end
 end
 
 # Don't forget! This file needs to be 'required' in its spec file
