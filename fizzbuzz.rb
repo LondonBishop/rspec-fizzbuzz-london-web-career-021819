@@ -1,4 +1,5 @@
 def fizzbuzz(numberIn)
+  case numberIn
   
 end
 
