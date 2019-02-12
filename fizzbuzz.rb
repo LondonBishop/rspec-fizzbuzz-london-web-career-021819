@@ -1,6 +1,9 @@
 def fizzbuzz(numberIn)
   case numberIn
-  
+  when (numberIn % 3 == 0 && numberIn % 5 == 0)
+    retrun "Fizzbuzz"
+  when
+      
 end
 
 # Don't forget! This file needs to be 'required' in its spec file
