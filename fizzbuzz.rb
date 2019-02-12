@@ -1,7 +1,7 @@
 def fizzbuzz(numberIn)
-  puts "FizzBuzz" if (numberIn % 3 == 0 && numberIn % 5 == 0)
-  puts "Fizz" if (numberIn % 3 == 0)
-  puts "Buzz" if (numberIn % 5 == 0)
+  return "FizzBuzz" if (numberIn % 3 == 0 && numberIn % 5 == 0)
+  return "Fizz" if (numberIn % 3 == 0)
+  return "Buzz" if (numberIn % 5 == 0)
 end
  
 
