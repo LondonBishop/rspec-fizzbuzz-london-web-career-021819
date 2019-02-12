@@ -1,10 +1,10 @@
 def fizzbuzz(numberIn)
   case numberIn
-    when (numberIn % 3 == 0 && numberIn % 5 == 0)
+    when (numberIn % 3 == 0 && numberIn % 5 == 0) === true
       return "FizzBuzz"
-    when (numberIn % 3 == 0)
+    when (numberIn % 3 == 0) === true
       return "Fizz"
-    when (numberIn % 5 == 0)
+    when (numberIn % 5 == 0) === true
       return "Buzz"
     end
 end
