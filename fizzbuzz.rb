@@ -1,7 +1,7 @@
 def fizzbuzz(numberIn)
   case numberIn
     when (numberIn % 3 == 0 && numberIn % 5 == 0)
-      retrun "FizzBuzz"
+      return "FizzBuzz"
     when (numberIn % 3 == 0)
       return "Fizz"
     when (numberIn % 5 == 0)
