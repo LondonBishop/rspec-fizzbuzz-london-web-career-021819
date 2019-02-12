@@ -7,9 +7,6 @@ def fizzbuzz(numberIn)
          return "Buzz"
        end
      end
-   end
- end
- end
  
 
 # Don't forget! This file needs to be 'required' in its spec file
